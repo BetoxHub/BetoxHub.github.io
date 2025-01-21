@@ -2,124 +2,302 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=s, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="turip.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <title>BetoxHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BetoxFachero</title>
+    <link rel="stylesheet" href="Bonito.css">
+    <link rel="shortcut icon" href="/estrellas-fugaces.png" type="image/x-icon">
+    link
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barra de navegación horizontal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Estilo de la barra de navegación */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    /* Contenedor del menú */
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    /* Estilo de los elementos del menú */
+    .navbar ul li {
+      position: relative;
+    }
+
+    .navbar ul li a {
+      display: block;
+      padding: 15px 20px;
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      background-color: rgb(117, 216, 255);;
+      color: white;
+    }
+
+    /* Submenú desplegable */
+    .navbar ul li ul {
+      position: absolute;
+      top: 100%; /* Muestra debajo del elemento principal */
+      left: 0;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: none;
+      flex-direction: column;
+      min-width: 150px;
+    }
+
+    .navbar ul li ul li {
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    .navbar ul li ul li a {
+      padding: 10px 15px;
+    }
+
+    .navbar ul li ul li a:hover {
+      background-color: #0056b3;
+    }
+
+    .navbar ul li ul li:last-child {
+      border-bottom: none;
+    }
+
+    /* Mostrar el submenú al pasar el mouse */
+    .navbar ul li:hover ul {
+      display: flex;
+    }
+
+    /* Estilo para la página con contenido */
+    .content {
+      margin-top: 60px; /* Deja espacio debajo de la barra fija */
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" style="color: #e3f2fd;" href="#">BETOX</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            
-              <li class="nav-item">
-                <a class="nav-link" style="color: #e3f2fd;"href="#">INICIO</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"style="color: #e3f2fd;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  REDES SOCIALES
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item"  href="https://www.youtube.com/channel/UCyI0SpeiKGCtbphfsxD6jkg">YOUTUBE</a></li>
-                  <li><a class="dropdown-item" href="https://twitter.com/BetoxFachero ">TWITTER</a></li>
-                  
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color: #e3f2fd;"href="llenarpendejo.html">LOGIN</a>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-      
-    <div class="naranja">
-        <br>
-        <center>
-            <div class="haberxd">
-                <h1 class="mevengo">BETOXGAME</h1>   
-            </div>
-           
-        </center>
-        <br>
-    </div>  
-    <header>
-        <div class="overlay"></div>
-        <div class="absolute">
-            <h1 class="pendejo">DESCARGA TUS JUEGOS FAVORITOS Y PROGRAMAS TOTALMENTE GRATIS!!! <BR> SIMPLEMENTE CON LOGEARTE DE MANERA FACHAA😎😎😎</h1>
-      
-        </div>
-        <video onloadedmetadata="this.muted=true" autoplay loop>
-            <source src="/y2meta-com-Cyberpunk 2077 - MAX SETTINGS 8k Resolution Ray Tracing PC Graphics! Night City Free Roam Gameplay-(1080p60).mp4">
-        </video>
-    </header>
-    <div class="negro">
-      <center>
-        <br>  
-        <div class="haberxd">
-        <h1 class="UWU">VIDEOJUEGOS</h1>
-      </div>
-        <br><br>
-    <a target="_blank" href=" https://www.mediafire.com/file/qzt7hmok4v4pe0j/Cuph34d_-_NeoGames.rar/file"><img class="imagenputa" src="/descarga.png" ></a>
-S    <a target="_blank" href=" https://drive.google.com/file/d/1J8J0zBqpGvkwFxBmNB-CRmrQO5YISLIl/view"><img class="imagenputa2" src="/5f8c50543bee4.jpg"></a>
-    <a target="_blank" href=" https://drive.google.com/file/d/1-lxp_sJ9Tb6l0QQ8Xd8R3nKPzYv1bej1/view/"><img class="imagenputa" src="/descarga (1).jfif"></a>
-    <a target="_blank" href="https://drive.google.com/file/d/1QbOvU5wJm8xsfRpjugoTUXQu-ZbUgkQ8/view"><img class="imagenputa5" src="/Five-Nights-at-Freddys-2.webp"></a>
-    <br><br>
-    <a target="_blank" href=" https://www.mediafire.com/file/je7ttc61krt21x1/ISO_Canon_V6_Update.rar/file"><img class="imagenputa6" src="/POGR047 Cover.png" ></a>
-    <a target="_blank" href=" https://www.mediafire.com/file/4y1igpqbytvxivz/Geometry_Dash_v2.11_by_ElgatoY.rar/file"><img class="imagenputa6" src="/images.jfif" ></a>  
-    <a target="_blank" href=" https://www.mediafire.com/file/ydjmv83d2yd717n/Setup.rar/file"><img class="imagenputa7" src="/Grand_Theft_Auto_V.png" ></a>  
-    <a target="_blank" href=" https://mega.nz/file/98AC3A4Y#3YI-kpn62xGLf3Mv2M5Ydw53OfDwLRG9--S3hjnAyY4"><img class="imagenputa8" src="/descarga (2).jfif" ></a>  
-    <a target="_blank" href="https://www.mediafire.com/folder/p3aheqprzg3mj/Stray><img class="imagenputa9" src="/descarga (3).jfif" ></a>  
-      </center>
-      <br>
-    </div>
-    <div class="naranja">
-      <br>
-      <div class="haberxd">
-        <center>
-          <h1 class="mevengo">PROGRAMAS</h1>   
-        <br>
-      </center>
-        <section>
 
-        
-    <img class="" src="/images.png"></a>
-        <img class="" src="/Adobe_Illustrator_CC_icon.svg.png">
-        <img class="" src="/3.png">
-        <br><br>
-        <img class="" src="/Adobe_After_Effects_CC_icon.svg.png">
-        <br><br>
-        <img class="" src="/Logo-Adobe_Animate.png">
-        <img class="" src="/audition.png">
-        <img class="" src="/Vegas_Pro_15.0.png">
-      </section>
-      <br>
-    </div>
-   
-<div  class="negro">
-  <center>
-    <br>
-    <div class="haberxd">
-      <sectiom>
-        <h1 class="UWU2"> INFORMACION</h1>
-      </sectiom>
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="Index.html">Inicio</a></li>
+      <li><a href="https://api.whatsapp.com/send?phone=593987179298&text=Deseo%20mas%20informacion%20de%20los%20perifericos%20de%20betoxtech!">Contacto</a></li>
+      <li>
+        <a href="">Informacion</a>
+        <ul>
+          <li><a target="_blank" href="/CURRICULUM_ALBERTOYULAN_.pdf">Curriculum</a></li>
+          <li><a href="https://www.instagram.com/betox_tech/">Tienda online</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+
+
+</body>
+</html>
+
+<body>
     
+    <div class="todoarriba">
+        <br><br>  <br><br>  <br><br><br><br><br>
+        <center>
+       <h1 class="Arriba">BetoxFachero</h1>
+       <h1 class="Abajo">Editor de video</h1>
+       <br><br><br><br><br><br><br><br><br><br><br>
+    </center>
+    </div>
+    <br><br> <br><br>
+
+    <div class="circulo">
+        <center>
+        <h1 class="Arriba">Portafolio Edicion </h1>
+       
+    </center>
+    </div>
     <br>
-    <div class="chupi">
-    <h1 class="CONTENIDO">PAGINA PARA DESCARGAR DIFERENTES CANTIDAD DE VIDEOJUEGOS, <br>VARIEDADES DE PACKETES DE PROGRAMAS,POR MEDIO DEL LOGUEO,<br>UNA VEZ LOGUEADO TE LLEVARA A UN ACORTADOR O CONOCIDO<br> COMUNMENTE CONOCIDO COMO "SALTAR PUBLICIDAD",  UNA VEZ<br> SALTADO PUBLICIDAD SE PDORA VISUALIZAR EL ARCHIVO TANTO EN<br> DRIVE COMO EN MEGA  </h1>
-  </div>
-  </div>
-  </center>
-  
+    <center>
+    <h1 class="texto">Aqui se pueden visualizar varios tipos de edicion, en el cual<br> dependiendo  de aquello  es la tarifa, los progamas que utilizo<br> para el diseño de los videos y miniaturas son:   </h1>
+    <br><br><br>
+        <img class="imagen" src="/Adobe_After_Effects_CC_icon.svg.png" alt="">
+        <img class="imagen" src="/Adobe_Premiere_Pro_CC_icon.svg.png" alt="">
+        <img class="imagen" src="/Adobe_Photoshop_CC_icon.svg.png" alt="">
+        <br><br><br><br><br><br><br>
+        <div class="circulodos"> <h1 >Tipos de edicion</h1></div>
+<br>
+</center>
+<div class="cuadrantes">
+    
+    <div class="TEXT">
+    <h1 class="azulito">Edicion Standar</h1>
+    <h3>Edicion predertimanda que contiene las siguientes caracteristicas:</h3>
+    <h3>-Subtitulado en la intro <br><br>-Efecto de sonido<br><br>-Musica en todo el video<br><br>-Memes<br><br>-Correcciones en el video<br><br>-pocas animaciones<br> de explicacion <br><br>  </h3>
+    <h1 class="azulito">Precio y tiempos de entrega</h1>
+    <h3>- 1m= $2,50</h3>
+    <h3>- 4-5 dias laborables(depende mucho<br> del minutaje del video bruto)</h3>
+    <h3>-Entrega por Mega,Mediafire,Drive,etc</h3>
+    <h1 class="azulito">Ejemplos-Links</h1>
+    <div class="ejemplo-videodos">
+      <iframe class="ola" width="560" height="315" src="https://www.youtube.com/embed/vwisSPYLCd0?si=WsqDFSPEVH5ylPNr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe  class="ola"width="560" height="315" src="https://www.youtube.com/embed/4XyljN4BhFs?si=T8Su0y3r4Q1M9_lQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <a  href="https://drive.google.com/file/d/1BHo0NMn1na9I-m-CKHjVC-uOPFQPvFY3/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 1</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1BSOQYKDv4fkyiWIN_vvfq4KWuGFAw8tQ/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 2</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1wdFHb9o7r93IxVDI8em_58I_M9lGJA0A/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 3</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1hYqctzZWaNtBbLAIaW6YCtHzpPRRDHG7/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 4</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1q8Zum3W8xNhzeCfpSA--ZXpFjFGpYQPA/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 5</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1GA7A_ULIkLg6ClJViphB_J-aiFjnYhsE/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 6</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1--wLo_6Orgbx3cYq38wAwZeVyN3WZjFm/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 7</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1HHtHbNSknp3SRuhSf6a59-sfqbYRu7Tt/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 8</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1ScEvyjzfitAMIdb1xPAhymOztCXQdMhF/view?usp=sharing"><div class="circulocinco"><h1 class="huevos">Masvideos 9</h1></div></a>
+
+
 </div>
+<div class="TEXTDOS">
+    <h1 class="azulito">Edicion Pro</h1>
+    <h3>Edicion smoth mas top!</h3>
+    <h3>-Animaciones en la mayoria del <br>video para las explicaciones<br><br>-Animaciones de mascara de<br> capa entre el fondo y la persona<br><br>-Logos vectoriales<br> neon para explicaciones<br><br>-Correccion de color<br><br>-Ia para voz de memes <br>o explicaciones<br><br>-Uso del paquete Boris Fx<br>(elementos glow,shine,<br>cc light sweep) <br><br>-Subtitulado en varias<br> partes del video <br><br>-Efecto de sonido cambiarios<br> en base a la ambientacion<br><br>-Musica en todo el video<br><br>-Memes<br><br>-Correcciones en el video<br><br>-VFX  </h3></h3>
+    <h1 class="azulito">Precio</h1>
+    <h3>- 1m= $3</h3>
+    <h3>- 4-7 dias laborables(depende mucho<br> del minutaje del video bruto)</h3>
+    <h3>-Entrega por Mega,Mediafire,Drive,etc</h3>
+    <h1 class="azulito">Ejemplos-Links</h1>
+    <div class="ejemplo-video">
+      <iframe class="ola" width="560" height="315" src="https://www.youtube.com/embed/ZLu1guy6zus?si=t2OZKQHoJ4fnKLEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br>  
+    <div class="ejemplo-video">
+      
+      <iframe class="ola" width="560" height="315" src="https://www.youtube.com/embed/85cuL82Uvok?si=J5C-uY5_-GFxlZ_3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
+    </div>  
+    <a  href="https://drive.google.com/file/d/1J2AT7fM5qimIuqJhtFtx7DU4IbEZCHXb/view?usp=sharing"><div class="circuloseis"><h1 class="huevos">Masvideos 1</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1SNmyJrnDo0LsMdN6P4HGqmEvWMSbd1uS/view?usp=sharing"><div class="circuloseis"><h1 class="huevos">Masvideos 2</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1GWAXQa5fCfrGFQUeATyLxFH78CmC_Ada/view?usp=sharing"><div class="circuloseis"><h1 class="huevos">Masvideos 3</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1TNFQ3XTaHxdOSN6eWDXXihfH4cizEHMi/view?usp=sharing"><div class="circuloseis"><h1 class="huevos">Masvideos 3</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1PLu12EEhrceT5JCoSZsN930EAO7rnhMq/view?usp=sharing"><div class="circuloseis"><h1 class="huevos">Masvideos 4</h1></div></a>
+    <a  href="https://drive.google.com/file/d/1uSNfdXRVgKDwWqxlY5sGSWLhG3gnWOGp/view?usp=sharing"><div class="circuloseis"><h1 class="huevos">Masvideos 5</h1></div></a>
+
+    
+</div>
+    
+    <div class="TEXTTRES">
+        <h1 class="azulito">Edicion tiktok</h1>
+        <h3>-Subtitulado en la intro <br><br>-Efecto de sonido<br><br>-Musica en todo el video<br><br>-Memes<br><br>-Correcciones en el video<br><br>-VFX<br><br>-pocas animaciones<br> de explicacion<br><br>-Mascaras de animacion  </h3>
+        <h1 class="azulito">Precio y tiempos de entrega</h1>
+        <h3>- 1m= $3</h3>
+        <h3>- 2-4 dias laborables(depende mucho <br> del minutaje del video bruto)</h3>
+        <h3>-Entrega por Mega,Mediafire,Drive,etc</h3>
+        <h1 class="azulito">Ejemplos-Links</h1>
+        
+    <div class="ejemplo-videotres">
+  
+        
+        <iframe class="ola" width="560" height="315" src="https://www.youtube.com/embed/SClr7PtgTSA?si=a1E1rJC7xgpY1BKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+      </div>
+      <a  href="https://drive.google.com/file/d/17mWNcsd_9RzVcYdQrCs4xiitK9arbI0-/view?usp=sharing"><div class="circulosiete"><h1 class="huevos">MasTiktoks 1</h1></div></a>
+      <a  href="https://drive.google.com/file/d/1e-mesbHH2hon-uMHcPS4HVoXC8IvdEFN/view?usp=sharing"><div class="circulosiete"><h1 class="huevos">MasTiktoks 2</h1></div></a>
+      <a  href="https://drive.google.com/file/d/1FeHhd3KiQJfW11Mel3YjXC_GQPketpwS/view?usp=sharing"><div class="circulosiete"><h1 class="huevos">MasTiktoks 3</h1></div></a>
+      <a  href="https://drive.google.com/file/d/1rL5omZjr57XbDYCUAJ-MAnwsWhs-NIOv/view?usp=sharing"><div class="circulosiete"><h1 class="huevos">MasTiktoks 4</h1></div></a>
+      <a  href="https://drive.google.com/file/d/1W7AZrHrBtXdX9zMX2B1azDF98EadUXNC/view?usp=sharing"><div class="circulosiete"><h1 class="huevos">MasTiktoks 5</h1></div></a>
+      <a  href="https://drive.google.com/file/d/1LE5Ogc34ZatSW3co5B6Lw_shUKe3Xxl4/view?usp=sharing"><div class="circulosiete"><h1 class="huevos">MasTiktoks 6</h1></div></a>
+      
+      
+    </div>
+    <div >
+
+     
+    </div>
+ 
+</div>
+<br>
+<div class="NEGRO">
+    <br>
+    <center>
+        <div class="circulotres">
+        <h1>Metodos de pago</h1>
+    </div>
+    <img class="btc" src="1_7B3LcW3rYEETBmaDdLxZDQ.gif">
+    <h3 class="Arribados">En cuanto al pago podemos realizarlo de diferentes maneras ya sea con pago por <br> adelantado,pago mitad y mitad o pago una vez se termine el trabajo, todo depende
+        <br>de la cantidad de minutos de edicion y el esfuerzo laboral uwu
+    </h3>
+    <h3 class="Arribados">Los medios por el cual se puede realizar el pago son <br><br><br> 
+      <img class="imagen" src="/paypal.png">
+      <img class="imagen"src="/bnb.webp">
+      <img class="imagen"src="/wester.png"> 
+      
+    </h3>
+    <br><br>
+    </center>
+</div>
+<div class="miniaturas">
+  <center></center>
+  <br><br>
+  <div class="circuloaparte">
+  <h1 class="blancouwu">Miniaturas</h1>
+  
+ 
+</div>
+<br>
+<center>
+<h1 class="Arriba">Precio: $4.99</h1>
+</center>
+<br>
+<div class="contenedor-imagenes">
+<img class="peque" src="/f32399193719817.676ad01ac30c0.png">
+<img class="peque"src="/5ef177193719817.66fb7d1dd20eb.png">
+<img class="peque"src="/5fd1d4193719817.66823ee9bde7a.png">
+</div>
+<br>
+<div class="contenedor-imagenes">
+  <img class="peque"src="/b3835e193719817.66fb7d1dd32d3.png">
+  <img class="peque"src="/59a9fd193719817.669c7c04a72b2.png">
+  <img class="peque"src="/c8bccf193719817.669c7c04a6ae1.png">
+</div>
+
+<br>
+<div class="contenedor-imagenes">
+<img class="peque"src="/f96ec3193719817.669c7c04a79f0.png">
+<img class="peque"src="/b49100193719817.66fb7d1dd3c38.png">
+<img class="peque"src="/014a35193719817.66fb7d1dd4352.png">
+</div>
+<br>
+<div class="contenedor-imagenes">
+<img class="peque"src="/967cbe193719817.66fb7d1dd29d8.png">
+</div>
+
+
+</center>
+<br>
+</div>
+<audio id="myAudio" src="/Sparkle Your Name AMV (mp3cut.net).mp3" autoplay loop></audio>
 </body>
 </html>

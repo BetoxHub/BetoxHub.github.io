@@ -1,0 +1,241 @@
+body {
+    overflow-x: hidden; /* Evita desbordamientos horizontales */
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+    .todoarriba{
+        background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.274)),  url(/9dbd9e807e4d498b454d120c82086f43.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+
+
+    }
+
+    .circulo{
+        
+        background-color: black;
+        border-radius: 1cm;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .circuloaparte{
+        
+        background-color: rgb(255, 255, 255);
+        border-radius: 1cm;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .Arriba{
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 200%;
+    }
+
+
+    .Abajo{
+        color: rgb(117, 216, 255);
+        font-size: 200%;
+        
+    }
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 150%;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .imagen{
+        width: 3cm;
+        margin: 0 10px;
+    }
+    .circulodos{
+        background-color: rgb(117, 216, 255);
+        border-radius: 1cm;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .cuadrantes{
+        padding: 10px;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.171);
+        gap: 10px;
+        border-radius: 1cm;
+    }
+    .TEXT{
+        flex: 1;
+        text-align: left;
+        margin-left: 1%;
+
+    }
+    .TEXTDOS{
+        flex: ;
+        text-align: center;
+
+    }
+    .TEXTTRES{
+        flex: 1;
+        text-align: right;
+        margin-right: 1%;
+    }
+    .azulito{
+        color: rgb(61, 111, 131);
+
+    }
+
+    .ejemplo-videodos {
+        width: 0%; /* Ajusta el ancho según tus necesidades */
+        height: auto;
+        margin: 0px auto;
+        margin-left: 0px;
+       
+
+    }
+    .ejemplo-video {
+        width: 0%; /* Ajusta el ancho según tus necesidades */
+        height: auto;
+        margin: 0px auto;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente (si es necesario) */
+        flex-wrap: wrap; /* Permite que los videos se acomoden si no caben en una fila */
+        gap: 10px; /* Espacio entre los videos */
+        width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+
+    }
+    .ejemplo-videotres {
+        width: 0%; /* Ajusta el ancho según tus necesidades */
+        height: auto;
+        display: flex
+        margin: 0px auto;
+        flex-wrap: wrap; /* Permite que los videos se acomoden si no caben en una fila */
+        gap: 10px; /* Espacio entre los videos */
+        width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+     
+
+    }
+
+    .ola2{
+
+        width: 6cm;
+        border-radius: 1cm;
+        margin-left: 8cm;
+     
+    }
+    .ola{
+        width: 10cm;
+        border-radius: 1cm;
+        justify-content: center;
+    }
+.NEGRO{
+    background-color: rgb(39, 39, 39);
+    
+    
+}
+  .circulotres{
+    background-color: aliceblue;
+    border-radius: 1cm;
+    margin-left: 40%;
+    margin-right: 40%;
+
+  }
+
+  .btc{
+    width: 8cm;
+  }
+  .Arribados{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.circulocinco{
+    background-color: rgb(0, 0, 0);
+    margin-right:30% ;
+    border-radius: 1cm;
+    text-align: center;
+}
+
+
+.huevos{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.circuloseis{
+    background-color: rgb(0, 0, 0);
+    border-radius: 1cm;
+    text-align: center;
+}
+.circulosiete{
+    background-color: rgb(0, 0, 0);
+    border-radius: 1cm;
+    text-align: center;
+    margin-left: 30%;
+}
+.blancouwu{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.miniaturas{
+    background:  linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.274)), url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/dece5f124024167.60fb03546918b.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    
+}
+
+.contenedor-imagenes {
+    display: flex; /* Usar flexbox para organizar las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 150px; /* Espaciado entre las imágenes */
+    padding: 20px; /* Opcional: espacio interno alrededor del contenedor */
+  }
+  
+  .peque {
+    position: relative; /* Necesario para posicionar el contenido adicional */
+    border-radius: 1cm;
+    max-width: 25%; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto;
+    transition: transform 0.3s; /* Suaviza el efecto al hacer hover */
+  }
+  
+  .peque:hover {
+    transform: scale(1.1); /* Ampliar ligeramente la imagen al pasar el mouse */
+  }
+  
+  /* Fondo azul oscuro y texto */
+  .peque::after {
+    content: "$4.99"; /* Texto que aparecerá */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 139, 0.8); /* Azul oscuro con transparencia */
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0; /* Oculto por defecto */
+    pointer-events: none; /* Para que el hover funcione correctamente */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .peque:hover::after {
+    opacity: 1; /* Aparece al hacer hover */
+  }
+  
+
